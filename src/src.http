@@ -1,6 +1,6 @@
 @src_HostAddress = http://localhost:5025
 
-GET {{src_HostAddress}}/weatherforecast/
+GET {{src_HostAddress}}/api/worckout-tracker/
 Accept: application/json
 
 ###
