@@ -19,7 +19,7 @@ namespace src.Services
                 exercises.Add(new Exercise(exercisesDTO.Name, exercisesDTO.CountApproaches, exercisesDTO.CountRepeats, workoutId));
             }
 
-            return await _workoutRepository.AddExercises(exercises, workoutId);
+            return await _workoutRepository.AddExercises(exercises);
         }
 
         public async Task<bool> Create(WorkoutDTO workoutDTO)

@@ -5,7 +5,7 @@ namespace src.Interfaces
     public interface IWorkoutRepository
     {
         Task<bool> Create(Workout workout);
-        Task<bool> AddExercises(List<Exercise> exercise, int workoutId);
+        Task<bool> AddExercises(List<Exercise> exercise);
         Task<bool> DeleteExercise(int workoutId, int exerciseId);
         Task<bool> UpdateDate(int workoutId, DateTime date);
         Task<bool> Delete(int id);
