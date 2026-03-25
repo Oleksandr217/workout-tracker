@@ -1,4 +1,4 @@
-﻿using src.Models.Domain;
+using src.Models.Domain;
 using src.Models.DTOs;
 
 namespace src.Interfaces
