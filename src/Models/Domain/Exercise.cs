@@ -4,7 +4,6 @@ namespace src.Models.Domain
 {
     public class Exercise
     {
-        [Key]
         public int Id { get; private set; }
         public string Name { get; set; }
         public int CountApproaches { get; set; }
