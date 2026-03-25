@@ -9,6 +9,7 @@ namespace src.Models.Domain
         public int CountApproaches { get; set; }
         public int CountRepeats { get; set; }
         public int WorkoutId { get; set; }
+        public Workout Workout { get; set; }
         public Exercise(string name, int approaches, int repeats, int workoutId)
         {
             Name = name;
