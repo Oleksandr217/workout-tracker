@@ -9,7 +9,7 @@ namespace src.Models.DTOs
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Дата є обов'язковою")]
-        [Range(typeof(DateTime), "1/1/2026", "12/31/2100")]
+        //[Range(typeof(DateTime), "1/1/2026", "12/31/2100")]
         public DateTime Start {  get; set; }
 
         public List<ExerciseDTO> Exercises { get; set; } = new();

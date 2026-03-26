@@ -10,11 +10,11 @@ namespace src.Models.Domain
         public int CountRepeats { get; set; }
         public int WorkoutId { get; set; }
         public Workout Workout { get; set; }
-        public Exercise(string name, int approaches, int repeats, int workoutId)
+        public Exercise(string name, int countApproaches, int countRepeats, int workoutId)
         {
             Name = name;
-            CountApproaches = approaches;
-            CountRepeats = repeats;
+            CountApproaches = countApproaches;
+            CountRepeats = countRepeats;
             WorkoutId = workoutId;
         }
     }
